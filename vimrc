@@ -27,12 +27,12 @@ set smartcase                   " ... unless they contain at least one capital l
 call pathogen#infect()
 
 """ Fuzzy Finder
-" map <Leader>ff :FufFile<CR>
-" map <Leader>fb :FufBuffer<CR>
-" map <Leader>fl :FufLine<CR>
-" map <Leader>fj :FufJump<CR>
-" let g:fuf_previewHeight = 10
-" let g:fuf_autoPreview = 0
+map <Leader>ff :FufFile<CR>
+map <Leader>fb :FufBuffer<CR>
+map <Leader>fl :FufLine<CR>
+map <Leader>fj :FufJump<CR>
+let g:fuf_previewHeight = 10
+let g:fuf_autoPreview = 0
 
 """ Use the same symbols as TextMate for tabstops and EOLs
 set listchars=tab:▸\ ,eol:¬     " Shows characters for tabs and end of line

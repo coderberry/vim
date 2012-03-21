@@ -1,11 +1,10 @@
 set go=egmt                  " set gui options - :help guioption to view options
-color darkbone               " theme
+color candycode
 set number                   " turn on line numbers
 set cursorline               " highlight cursorline
 
-
 if has("gui_macvim")
-  set guifont=Menlo:h14
+  set guifont=Inconsolata:h14
 
 	" Fullscreen takes up entire screen
 	set fuoptions=maxhorz,maxvert
